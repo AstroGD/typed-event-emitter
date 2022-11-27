@@ -2,12 +2,12 @@
 A zero Dependency drop-in replacement for NodeJS EventEmitter to support strictly typed events without modifying the EventEmitter namespace.
 
 ## Why?
-When using NodeJS's EventEmitter, typings are not enforced. This means that you can listen to events that don't exist and might encounter unexpected event arguments when listening to an event.
+When using NodeJS's EventEmitter, typings are not enforced. This means that you can listen to events that don't exist and might encounter unexpected event arguments that lead to unintended behavior.
 
 After searching for a while I couldn't find an open source library that helps with this, so I decided to create one myself.
 
 ## When to use it
-If you are working with typescript and know exactly what events will be emitted and what data they will pass along: This lobrary is exactly for you!
+If you are working with typescript and know exactly what events will be emitted and what data they will pass along: This library is exactly for you!
 
 Not only does it enable valuable intellisense during development, it also ensures your events are type safe and easy to use for people who use your project.
 
@@ -67,7 +67,7 @@ events.on("my-event", (customArgument) => {
 })
 
 events.on("removeListener", (firstArg: boolean | string | symbol, secondArg?: Function) => {
-    // Yeay we merged the default listener types with the custom implementation!
+    // Yay we merged the default listener types with the custom implementation!
 });
 
 // You can also attach the typed event emitter to your custom class:
