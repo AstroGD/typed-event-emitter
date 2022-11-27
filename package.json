@@ -1,0 +1,38 @@
+{
+  "name": "@astrogd/typed-events",
+  "version": "1.0.0",
+  "description": "A zero Dependency drop-in replacement for NodeJS EventEmitter to support strictly typed events without modifying the EventEmitter namespace",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstroGD/typed-event-emitter.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsc",
+    "types",
+    "nodejs",
+    "events",
+    "eventemitter",
+    "emitter",
+    "strict",
+    "type"
+  ],
+  "author": "AstroGD Lukas Weber <hello@astrogd.eu> (https://www.astrogd.eu)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/AstroGD/typed-event-emitter/issues"
+  },
+  "homepage": "https://github.com/AstroGD/typed-event-emitter#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.9.3"
+  },
+  "funding": "https://www.buymeacoffee.com/astrogd"
+}
