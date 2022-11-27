@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "rimraf lib && npm run build",
+    "prepare": "rimraf lib && npm run build",
     "deploy": "npm publish --access public"
   },
   "repository": {
