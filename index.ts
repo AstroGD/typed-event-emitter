@@ -18,7 +18,7 @@ essential part of this License. No use of any Covered Software is
 authorized under this License except under this disclaimer.
 ***********************************************************************/
 
-import EventEmitter from "node:events";
+import EventEmitter from "events";
 
 export type CustomEvents = Record<string, (...args: any[]) => void>;
 
