@@ -1,6 +1,6 @@
 {
   "name": "@astrogd/typed-events",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A zero Dependency drop-in replacement for NodeJS EventEmitter to support strictly typed events without modifying the EventEmitter namespace",
   "main": "lib/index.js",
   "engines": {
