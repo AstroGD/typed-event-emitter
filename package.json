@@ -34,6 +34,7 @@
   "homepage": "https://github.com/AstroGD/typed-event-emitter#readme",
   "devDependencies": {
     "@types/node": "^18.11.9",
+    "rimraf": "^3.0.2",
     "typescript": "^4.9.3"
   },
   "funding": "https://www.buymeacoffee.com/astrogd"
